@@ -1,0 +1,21 @@
+creamos un archivo date
+donde hace lo siguientes
+1)obtienes los datos 
+2)verifica que esa cantidad de dias es correcto 
+3)verifica que si el numero del mes existe 
+4)verifica si es año es bisiesto
+5) y tiene un override que envia la info
+
+creando un archivo invalidDate
+para tener buenas practicas y depurar con try y catch
+
+creas archivo employed
+1)resives los datos
+2)y los imprime
+
+
+creas archivo FullTimeEmployed
+1)resives los datos
+
+creas archivo ParcialTimeEmployed
+1)resives los datos 

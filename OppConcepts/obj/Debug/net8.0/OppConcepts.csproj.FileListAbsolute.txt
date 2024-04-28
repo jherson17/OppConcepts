@@ -1,0 +1,14 @@
+C:\Users\salak401\source\repos\OppConcepts\OppConcepts\bin\Debug\net8.0\OppConcepts.exe
+C:\Users\salak401\source\repos\OppConcepts\OppConcepts\bin\Debug\net8.0\OppConcepts.deps.json
+C:\Users\salak401\source\repos\OppConcepts\OppConcepts\bin\Debug\net8.0\OppConcepts.runtimeconfig.json
+C:\Users\salak401\source\repos\OppConcepts\OppConcepts\bin\Debug\net8.0\OppConcepts.dll
+C:\Users\salak401\source\repos\OppConcepts\OppConcepts\bin\Debug\net8.0\OppConcepts.pdb
+C:\Users\salak401\source\repos\OppConcepts\OppConcepts\obj\Debug\net8.0\OppConcepts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\salak401\source\repos\OppConcepts\OppConcepts\obj\Debug\net8.0\OppConcepts.AssemblyInfoInputs.cache
+C:\Users\salak401\source\repos\OppConcepts\OppConcepts\obj\Debug\net8.0\OppConcepts.AssemblyInfo.cs
+C:\Users\salak401\source\repos\OppConcepts\OppConcepts\obj\Debug\net8.0\OppConcepts.csproj.CoreCompileInputs.cache
+C:\Users\salak401\source\repos\OppConcepts\OppConcepts\obj\Debug\net8.0\OppConcepts.dll
+C:\Users\salak401\source\repos\OppConcepts\OppConcepts\obj\Debug\net8.0\refint\OppConcepts.dll
+C:\Users\salak401\source\repos\OppConcepts\OppConcepts\obj\Debug\net8.0\OppConcepts.pdb
+C:\Users\salak401\source\repos\OppConcepts\OppConcepts\obj\Debug\net8.0\OppConcepts.genruntimeconfig.cache
+C:\Users\salak401\source\repos\OppConcepts\OppConcepts\obj\Debug\net8.0\ref\OppConcepts.dll
