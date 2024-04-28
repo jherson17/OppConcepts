@@ -33,13 +33,36 @@ try
         HourValue = 95000.5M
     };
 
+    Employee emp3 = new CommissionEmployee
+    {
+        Birthdate = new Date(1994, 5, 11),
+        Document = "444",
+        Id = 4,
+        Name = "Juan",
+        Role = "Vendedor",
+        CommisionPercentage = 0.2,
+        TotalSalesValue = 90000000,
+    };
+
+    Employee emp4 = new ComissionBaseEmployee
+    {
+        Birthdate = new Date(1996, 5, 8),
+        Document = "555",
+        Id = 5,
+        Name = "Erika",
+        Role = "MTO",
+        CommisionPercentage = 0.2,
+        TotalSalesValue = 4000000,
+        Salary = 1000000
+    };
+
     // Crea una instancia de la clase Payroll para representar una nómina
     Payroll payroll = new Payroll
     {
         Description = "Pago Nómina Febrero",
         Id = 123,
         PayrollDate = new Date(2024, 2, 26),
-        Employees = new List<Employee> { emp1, emp2 } // Establece la lista de empleados incluidos en la nómina
+        Employees = new List<Employee> { emp1, emp2, emp3, emp4 } // Establece la lista de empleados incluidos en la nómina
     };
     Console.WriteLine(payroll); // Imprime la información de la nómina en la consola
 
