@@ -34,6 +34,8 @@ namespace OppConcepts
             Birthdate = birthdate;
         }
         //devolver cierta informacion
+        //override = La palabra clave override se utiliza en C# para indicar que un método en una clase derivada
+        //está reemplazando (o sobrescribiendo) un método de la clase base con el mismo nombre y firma
         public override string ToString()
         {
             return $"Empleado: {Name} | Cargo: {Role} | Documento: {Document} | Fecha de nacimiento: {Birthdate}";

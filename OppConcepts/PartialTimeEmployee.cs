@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace OppConcepts
 {
+    //PartialTimeEmployee Hereda de Employee
     public class PartialTimeEmployee : Employee
     {
         //creando propiedades con get y set (puede ser leidas y modificada) de instancia publica

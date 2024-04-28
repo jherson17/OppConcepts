@@ -1,0 +1,46 @@
+(ver y crear capetas de herencias y colleciones)
+
+Programs.cs:
+creando instancias dentro de cada figura
+
+guardamos todo las instancias en una lista Shapes (Collecciones)
+
+utilizamos foreach para reccorer toda la lista y imprimir
+
+Shape.cs:
+
+Define una clase abstracta llamada "Shape" que representa una forma geométrica genérica.
+
+Contiene una propiedad para el color de la forma y un método abstracto para calcular el área de la forma.
+
+Sobrescribe el método ToString() para proporcionar una representación de cadena básica de la forma.
+
+Square.cs:
+
+Define una clase "Square" que hereda de "Shape" y representa un cuadrado.
+
+Contiene propiedades para el lado del cuadrado.
+
+Implementa el método abstracto GetArea() para calcular el área del cuadrado.
+
+Sobrescribe el método ToString() para proporcionar una representación de cadena específica del cuadrado.
+
+Rectangle.cs:
+
+Define una clase "Rectangle" que hereda de "Shape" y representa un rectángulo.
+
+Contiene propiedades para la base y la altura del rectángulo.
+
+Implementa el método abstracto GetArea() para calcular el área del rectángulo.
+
+Sobrescribe el método ToString() para proporcionar una representación de cadena específica del rectángulo.
+
+Circle.cs:
+
+Define una clase "Circle" que hereda de "Shape" y representa un círculo.
+
+Contiene una propiedad para el radio del círculo.
+
+Implementa el método abstracto GetArea() para calcular el área del círculo.
+
+Sobrescribe el método ToString() para proporcionar una representación de cadena específica del círculo.

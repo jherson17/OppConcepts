@@ -72,6 +72,8 @@ namespace OppConcepts
         }
 
         // Método ToString para representar la fecha como una cadena
+        //override = La palabra clave override se utiliza en C# para indicar que un método en una clase derivada
+        //está reemplazando (o sobrescribiendo) un método de la clase base con el mismo nombre y firma
         public override string ToString()
         {
             return $"{_year}/{_month:00}/{_day:00}";
