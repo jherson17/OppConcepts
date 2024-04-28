@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Documents\\c#\\OppConcepts\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{66DDA6CF-EBB3-4745-A681-4CE4050536A2}|OppConcepts\\OppConcepts.csproj|c:\\users\\user\\documents\\c#\\oppconcepts\\oppconcepts\\tercer commit.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{66DDA6CF-EBB3-4745-A681-4CE4050536A2}|OppConcepts\\OppConcepts.csproj|solutionrelative:oppconcepts\\tercer commit.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{66DDA6CF-EBB3-4745-A681-4CE4050536A2}|OppConcepts\\OppConcepts.csproj|c:\\users\\user\\documents\\c#\\oppconcepts\\oppconcepts\\payroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{66DDA6CF-EBB3-4745-A681-4CE4050536A2}|OppConcepts\\OppConcepts.csproj|solutionrelative:oppconcepts\\payroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -34,11 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "tercer commit.txt",
+              "DocumentMoniker": "C:\\Users\\User\\Documents\\c#\\OppConcepts\\OppConcepts\\tercer commit.txt",
+              "RelativeDocumentMoniker": "OppConcepts\\tercer commit.txt",
+              "ToolTip": "C:\\Users\\User\\Documents\\c#\\OppConcepts\\OppConcepts\\tercer commit.txt",
+              "RelativeToolTip": "OppConcepts\\tercer commit.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-04-28T17:18:24.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "PartialTimeEmployee.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\c#\\OppConcepts\\OppConcepts\\PartialTimeEmployee.cs",
               "RelativeDocumentMoniker": "OppConcepts\\PartialTimeEmployee.cs",
@@ -46,12 +63,11 @@
               "RelativeToolTip": "OppConcepts\\PartialTimeEmployee.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAAABgAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T16:06:29.083Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T16:06:29.083Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Payroll.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\c#\\OppConcepts\\OppConcepts\\Payroll.cs",
               "RelativeDocumentMoniker": "OppConcepts\\Payroll.cs",
@@ -64,7 +80,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\c#\\OppConcepts\\OppConcepts\\Program.cs",
               "RelativeDocumentMoniker": "OppConcepts\\Program.cs",
@@ -72,12 +88,11 @@
               "RelativeToolTip": "OppConcepts\\Program.cs",
               "ViewState": "AQIAAEAAAAAAAAAAAAAAAFYAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T16:10:40.715Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T16:10:40.715Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "FullTimeEmployee.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\c#\\OppConcepts\\OppConcepts\\FullTimeEmployee.cs",
               "RelativeDocumentMoniker": "OppConcepts\\FullTimeEmployee.cs",
@@ -85,12 +100,11 @@
               "RelativeToolTip": "OppConcepts\\FullTimeEmployee.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAAAAgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T16:03:25.478Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T16:03:25.478Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\c#\\OppConcepts\\OppConcepts\\Employee.cs",
               "RelativeDocumentMoniker": "OppConcepts\\Employee.cs",
@@ -98,12 +112,11 @@
               "RelativeToolTip": "OppConcepts\\Employee.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAAABsAAABNAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T15:59:31.797Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T15:59:31.797Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "IPay.cs",
               "DocumentMoniker": "C:\\Users\\User\\Documents\\c#\\OppConcepts\\OppConcepts\\IPay.cs",
               "RelativeDocumentMoniker": "OppConcepts\\IPay.cs",
@@ -111,8 +124,7 @@
               "RelativeToolTip": "OppConcepts\\IPay.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T16:06:52.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T16:06:52.607Z"
             }
           ]
         }

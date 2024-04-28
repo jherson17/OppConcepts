@@ -1,0 +1,23 @@
+Clase Payroll: Esta clase representa una nómina de empleados. Contiene propiedades como la descripción,
+la lista de empleados, el ID y la fecha de la nómina. Además, implementa la interfaz IPay para calcular el pago total de la nómina. 
+El método ToString() proporciona una representación detallada de la nómina en forma de cadena.
+
+
+Clases PartialTimeEmployee y FullTimeEmployee: Estas clases representan empleados a tiempo parcial y completo,
+respectivamente. Ambas heredan de la clase abstracta Employee, que contiene propiedades comunes a todos los empleados. 
+Cada clase implementa el método abstracto GetPayment() para calcular el pago del empleado en función de su tipo de empleo. 
+El método ToString() proporciona una representación detallada de cada empleado en forma de cadena.
+
+
+Interfaz IPay: Esta interfaz define un método GetPayment() que debe ser implementado por cualquier clase que represente
+un pago, como PartialTimeEmployee y FullTimeEmployee. Esto permite calcular el pago total de la nómina de manera coherente.
+
+
+Clase abstracta Employee: Esta clase contiene propiedades comunes a todos los empleados y define un método abstracto 
+GetPayment() que debe ser implementado por las clases derivadas. También proporciona una implementación básica del método ToString() 
+para representar la información básica del empleado.
+
+
+Uso de StringBuilder para construir cadenas: Se utiliza StringBuilder para construir gradualmente la representación de 
+cadena de la nómina de manera eficiente, concatenando diferentes elementos de información como el encabezado, el número de factura y 
+la información detallada de cada empleado.
