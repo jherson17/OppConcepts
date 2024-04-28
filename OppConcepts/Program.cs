@@ -46,27 +46,31 @@ try
     Console.WriteLine("\n");
 
 
+    Console.WriteLine("========Figuras==========");
+    Console.WriteLine("=========================");
+    Console.WriteLine("=========================");
+    Console.WriteLine("\n");
 
-    // Creación de una instancia de la clase 
+    // Crea instancias de diferentes figuras geométricas: cuadrado, rectángulo y círculo
     Square square = new Square
     {
         Color = "Blue",
         Side = 5
     };
-    // Creación de una instancia de la clase 
+
     Rectangle rectangle = new Rectangle
     {
         Color = "Red",
         Base = 4,
         Height = 8,
     };
-    // Creación de una instancia de la clase 
+
     Circle circle = new Circle
     {
         Color = "Green",
-        Radious = 7
+        Radius = 7
     };
-    // Creación de una instancia de la clase 
+
     List<Shape> shapes = new List<Shape>
     {
         square,
@@ -74,22 +78,35 @@ try
         circle
     };
 
-    // las asigna a una lista de formas (List<Shape> shapes) y luego las imprime en la consola.
-    //Como la lista shapes contiene instancias de clases que heredan de Shape, la variable shape puede contener cualquier objeto que sea una subclase de Shape
+
     Console.WriteLine("=========================");
-    //foreach = Proporciona una forma simple y conveniente de recorrer todos los elementos de una colección sin necesidad de preocuparse por el índice o la cantidad de elementos en la colección.
     foreach (Shape shape in shapes)
     {
-        //y llama cada derivada de toString de los heredado ToString (se llama polimosfirmo(herencia))
-        Console.WriteLine(shape);
+
+        Console.WriteLine(shape); // Imprime la representación de cadena de la figura en la consola
+
+        if (shape is IDrawable)
+        {
+            // Obtiene el método "Draw" de la interfaz IDrawable utilizando reflexión
+            MethodInfo method = typeof(IDrawable).GetMethod("Draw");
+            // Invoca el método "Draw" en la figura y lo imprime en la consola
+            Console.WriteLine(method.Invoke(shape, null));
+        }
+
+        switch (shape.Color)
+        {// Establece el color de la consola basado en el color de la figuras
+            case "Red": Console.ForegroundColor = ConsoleColor.Red; break;
+            case "Green": Console.ForegroundColor = ConsoleColor.Green; break;
+            case "Blue": Console.ForegroundColor = ConsoleColor.Blue; break;
+        }
+
+        Console.WriteLine(shape.Draw());// Dibuja la figura en la consola
+
+        Console.ForegroundColor = ConsoleColor.White; // Restaura el color de la consola a blanco
+
         Console.WriteLine("=========================");
         Console.WriteLine("\n");
     }
-    //foreach (tipo elemento in colección)
-    //{
-        // Cuerpo del bucle: código que se ejecuta para cada elemento en la colección
-    //}
-
 
 
 }

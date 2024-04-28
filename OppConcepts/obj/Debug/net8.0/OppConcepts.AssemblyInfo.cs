@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OppConcepts")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f34ceb58427abe62c81817bd0005199222f3d049")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0857bd441abcfc060af1404138421de0b8a82639")]
 [assembly: System.Reflection.AssemblyProductAttribute("OppConcepts")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OppConcepts")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

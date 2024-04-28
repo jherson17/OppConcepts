@@ -1,0 +1,10 @@
+Se han definido las clases Square, Rectangle, y Circle, todas heredando de la clase abstracta Shape.
+
+Cada clase implementa el método abstracto GetArea() para calcular el área de la figura geométrica correspondiente.
+
+Se ha creado el método Draw() en cada clase para visualizar una representación gráfica de la figura.
+
+Las clases también sobrescriben el método ToString() para proporcionar una representación de cadena personalizada de cada figura, 
+incluyendo detalles como color, dimensiones y área.
+
+Se ha definido una interfaz IDrawable para los objetos que pueden ser dibujados.

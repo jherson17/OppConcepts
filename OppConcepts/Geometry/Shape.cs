@@ -7,12 +7,15 @@ using System.Threading.Tasks;
 
 namespace OppConcepts.Geometry
 {
-    public abstract class Shape
+    public abstract class Shape : IDrawable
     {//shape significa Forma
 
         // Propiedad para el color de la forma
         public string Color { get; set; }
+
+        public abstract string Draw();
         // Método abstracto para obtener el área de la forma
+
 
         //Una clase abstracta es una clase que no puede ser instanciada directamente,
         //sino que sirve como una plantilla para otras clases que la heredan.
