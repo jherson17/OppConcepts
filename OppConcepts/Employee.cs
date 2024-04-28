@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace OppConcepts
 {
-    public class Employee
+    // Definición de la clase abstracta Employee que implementa la interfaz IPay
+    public abstract class Employee : IPay
     {
         //creando propiedades con get y set (puede ser leidas y modificada) de instancia publica
         public int Id { get; set; }
@@ -17,28 +18,14 @@ namespace OppConcepts
         //para usar todas sus variale y funciones ten en cuenta que no lo hereda
         public Date Birthdate { get; set; }
 
-        //constructor sin parametros
-        public Employee()
+        public abstract decimal GetPayment();// Método abstracto para calcular el pago del empleado
+       
+        public override string ToString()// Método ToString para representar un empleado como una cadena
         {
-
-        }
-        //constructor con parametros
-        //son métodos especiales que se utilizan para inicializar
-        //objetos cuando se crean instancias de una clase
-        public Employee(int id, string name, string role, string document, Date birthdate)
-        {
-            Id = id;
-            Name = name;
-            Role = role;
-            Document = document;
-            Birthdate = birthdate;
-        }
-        //devolver cierta informacion
-        //override = La palabra clave override se utiliza en C# para indicar que un método en una clase derivada
-        //está reemplazando (o sobrescribiendo) un método de la clase base con el mismo nombre y firma
-        public override string ToString()
-        {
-            return $"Empleado: {Name} | Cargo: {Role} | Documento: {Document} | Fecha de nacimiento: {Birthdate}";
+            return $" Empleado..............: {Name} " +
+                $"{Environment.NewLine} Cargo.................: {Role} " +
+                $"{Environment.NewLine} Documento.............: {Document} " +
+                $"{Environment.NewLine} Fecha de nacimiento...: {Birthdate}";
         }
     }
 }

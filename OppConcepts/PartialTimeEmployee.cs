@@ -13,5 +13,19 @@ namespace OppConcepts
         public int Hours { get; set; }
         public decimal HourValue { get; set; }
 
+        // Implementación del método abstracto GetPayment para calcular el pago de un empleado a tiempo parcial
+        public override decimal GetPayment()
+        {
+            return Hours * HourValue; // Calcula el pago multiplicando las horas trabajadas por el valor de la hora
+        }
+        public override string ToString()
+        {
+            // Utiliza la implementación de ToString de la clase base (Employee) y agrega información adicional
+            return base.ToString() +
+                $"{Environment.NewLine} Horas trabajadas......: {Hours}" +
+                $"{Environment.NewLine} Valor hora............: {HourValue:C2}" +
+                $"{Environment.NewLine} -----------------------------------" +
+                $"{Environment.NewLine} Pago..................: {GetPayment():C2}";
+        }
     }
 }

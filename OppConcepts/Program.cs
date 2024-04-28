@@ -1,18 +1,18 @@
 ﻿using OppConcepts;// Importa el espacio de nombres OppConcepts que contiene
 using OppConcepts.Geometry;
+using System.Reflection;
 try
 {
     Console.WriteLine("=======Empleados=========");
     Console.WriteLine("=========================");
     Console.WriteLine("=========================");
     Console.WriteLine("\n");
-    // Intenta ejecutar el siguiente bloque de código
 
     //creacion de una instancia de la clase 
     Date date = new Date(2022, 5, 15);
 
-    //creacion de una instancia de la clase fulltime 
-    FullTimeEmployee emp2 = new FullTimeEmployee
+    // Crea una instancia de la clase FullTimeEmployee para representar un empleado a tiempo completo (emp1)
+    Employee emp1 = new FullTimeEmployee
     {
         Birthdate = date,
         Document = "222",
@@ -21,11 +21,28 @@ try
         Role = "CMO",
         Salary = 3500000
     };
+    // Crea una instancia de la clase PartialTimeEmployee para representar un empleado a tiempo parcial (emp2)
+    Employee emp2 = new PartialTimeEmployee
+    {
+        Birthdate = new Date(1995, 5, 13),
+        Document = "333",
+        Id = 3,
+        Name = "Jhon",
+        Role = "COO",
+        Hours = 40,
+        HourValue = 95000.5M
+    };
 
-    // Imprime la informacion del empleado
-    Console.WriteLine( emp2 );
+    // Crea una instancia de la clase Payroll para representar una nómina
+    Payroll payroll = new Payroll
+    {
+        Description = "Pago Nómina Febrero",
+        Id = 123,
+        PayrollDate = new Date(2024, 2, 26),
+        Employees = new List<Employee> { emp1, emp2 } // Establece la lista de empleados incluidos en la nómina
+    };
+    Console.WriteLine(payroll); // Imprime la información de la nómina en la consola
 
-    // Imprime la informacion un empleado
     Console.WriteLine("\n");
 
 
